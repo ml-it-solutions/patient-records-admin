@@ -1,0 +1,64 @@
+input {
+  height: 35px;
+  color: #2c3e50;
+  min-width: 300px;
+}
+
+body {
+  background-color: #4575bd;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.bg-primary {
+  background-color: #4575bd;
+}
+
+.bg-red {
+  background-color: #e74c3c;
+}
+
+.bg-blue {
+  background-color: #2c3e50;
+}
+
+.cl-primary {
+  color: #4575bd;
+}
+
+.cl-red {
+  color: #e74c3c;
+}
+
+.cl-blue {
+  color: #2c3e50;
+}
+
+.cl-white {
+  color: #fff;
+}
+
+/*  -----------------------------------------------
+    LOGIN
+    ----------------------------------------------- */
+.login {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=main.css.map */

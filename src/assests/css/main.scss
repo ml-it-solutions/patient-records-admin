@@ -1,0 +1,65 @@
+$primary:  #4575bd;
+$blue: #2c3e50;
+$red: #e74c3c;
+
+// custom elements
+
+input {
+    height: 35px;
+    color: $blue;
+    min-width: 300px;
+}
+
+body {
+    background-color: $primary;
+}
+
+// Helpers
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.bg-primary {
+    background-color: $primary;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.cl-primary {
+    color: $primary;
+}
+
+.cl-red {
+    color: $red;
+}
+
+.cl-blue {
+    color: $blue;
+}
+
+.cl-white {
+    color: #fff;
+}
+
+/*  -----------------------------------------------
+    LOGIN
+    ----------------------------------------------- */
+
+.login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import Login from './components/login/Login';
+import './assests/css/main.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Record management frontend</h1>
+      <Login />
     </div>
   );
 }
