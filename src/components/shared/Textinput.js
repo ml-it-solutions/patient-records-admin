@@ -4,7 +4,7 @@ export default ({ label, name, className, errors = [], ...props }) => {
     return (
         <div className={className}>
             {label && (
-                <label className="form-label" htmlFor={name}>{label}</label>
+                <label className="form-label cl-white" htmlFor={name}>{label}</label>
             )}
             <input
                 id={name}
